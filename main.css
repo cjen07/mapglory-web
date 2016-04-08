@@ -1,0 +1,71 @@
+html, body, #map { 
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.title h1 {
+    color: #006699;
+    cursor: pointer;
+    font: 300% Arial, serif;
+}
+
+.nav {
+    color: #006699;
+}
+
+.info {
+    top: 20px;
+    max-width: 220px;
+    padding: 6px 8px;
+    font: 14px/16px Arial, serif;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.searchResult {
+    top: 20px;
+    max-width: 220px;
+    padding: 6px 8px;
+    font: 14px/16px Arial, serif;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+.info h4 {
+    margin: 0 0 5px;
+    color: #555;
+}
+
+.board {
+    top: 40px;
+    padding: 6px 8px;
+    font: 14px/16px Arial, serif;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+}
+
+
+p {cursor: pointer;}
+
+#popup6 {color: #006699;}
+#popup5 {color: #006699;}
+#popup4 {color: #006699;}
+#popup3 {color: #006699;}
+#popup2 {color: #006699;}
+#popup1 {color: #006699;}
+#popup0 {color: #006699;}
+
+
+.leaflet-popup-content {
+    /*background: rgba(255,255,255,0.5);*/
+    width:auto !important;
+} /*https://github.com/Leaflet/Leaflet/issues/724*/
+
+.fontawesome-select {
+    font-family: 'FontAwesome', 'Helvetica';
+}

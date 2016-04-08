@@ -1,2 +1,2 @@
-# mapglory-web
-web application of mapglory
+# map-glory
+lightweight, GIS based anonymous platform of altruism
